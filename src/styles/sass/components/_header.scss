@@ -14,3 +14,24 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__button--decrement {
+    padding: 1rem 1.6rem;
+  }
+  &__button--increment {
+    padding: 1rem 1.6rem;
+  }
+  &__result {
+    font-size: 1.6rem;
+    color: white;
+  }
+}
