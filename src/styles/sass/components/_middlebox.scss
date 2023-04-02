@@ -1,5 +1,18 @@
-.middle__box {
+.middle__box__flex {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 160px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.middle__box__grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 100px;
+  background-color: black;
+  color: white;
 }
