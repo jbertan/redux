@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import MiddleBox from "@/components/middleBox";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="container__red">Red</div>
+        <div className="container__red">
+          <MiddleBox />
+        </div>
         <div className="container__blue">Blue</div>
       </main>
     </>
