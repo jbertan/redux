@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import MiddleBox from "@/components/middleBox";
+import MiddleBoxGrid from "@/components/middle-box-grid";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,9 @@ export default function Home() {
         <div className="container__red">
           <MiddleBox />
         </div>
-        <div className="container__blue">Blue</div>
+        <div className="container__blue">
+          <MiddleBoxGrid />
+        </div>
       </main>
     </>
   );
